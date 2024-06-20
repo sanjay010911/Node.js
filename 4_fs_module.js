@@ -1,11 +1,16 @@
 const f=require('fs')
 
-let fi=f.readFileSync('a.txt') //reading a file
+// let fi=f.readFileSync('a.txt') //reading a file
 
-console.log(fi)
+// console.log(fi)
 
-// f.writeFileSync('b.txt',fi)  writeing to a file
+// // f.writeFileSync('b.txt',fi)  writeing to a file
 
-f.appendFileSync('a.txt',"sdsjdksdfk")  //append to a file
+// f.appendFileSync('a.txt',"sdsjdksdfk")  //append to a file
 
-f.unlinkSync('a.txt')  //deleting a file
+// f.unlinkSync('a.txt')  //deleting a file
+
+
+// f.mkdirSync('newDir')
+let v=f.existsSync('2_os.js')
+console.log(v)
